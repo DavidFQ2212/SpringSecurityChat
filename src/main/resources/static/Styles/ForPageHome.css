@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(214, 35, 160), rgb(1, 179, 202));
+
+}
+
+.title {
+    text-shadow: 2px 2px 5px rgb(50, 130, 191);
+    color: white;
+
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(219, 93, 217, 0.326);
+}
+
+.Terminos h2 {
+    text-shadow: 2px 2px 5px rgb(201, 49, 178);
+}
+
+.Terminos {
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 1px 1px 20px rgb(247, 247, 247);
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(95, 95, 248, 0.594);
+}
+
+.Btn {
+    font-size: 30px;
+
+    margin: 40px;
+    transition: .8s;
+
+
+}
+
+.Btna {
+    box-shadow: 1px 1px 20px rgb(247, 247, 247);
+    border: 2px solid rgb(247, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.Btna:hover {
+    box-shadow: 1px 1px 20px rgb(248, 191, 244);
+    color: rgb(240, 214, 244);
+}
+
+.Btn:hover {
+
+    transform: scale(1.2);
+}
+
+p {
+    margin: 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" th:href="@{/Styles/ForPageHome.css}">
+    <title>Términos de Privacidad y Uso de la LibertyChat</title>
+</head>
+
+<body>
+    <div class="containder">
+        <div class="title">
+            <h1>LibertyChat</h1>
+        </div>
+        <div class="Terminos">
+            <h2>Términos de Privacidad y Uso de LibertyChat</h2>
+            <p>
+                Bienvenido a nuestra aplicación web de chat libre. Antes de comenzar a utilizarla, te pedimos que leas
+                detenidamente los siguientes términos de privacidad y uso. Al acceder y utilizar esta aplicación,
+                aceptas
+                cumplir con estos términos y condiciones. Si no estás de acuerdo con ellos, por favor, no utilices la
+                aplicación.
+
+                Privacidad de los Datos:
+                a. Recopilación de Información: Esta aplicación web no recopila ni almacena datos personales sensibles.
+                No
+                se te solicitará proporcionar información personal como nombres, direcciones, números de teléfono,
+                correos
+                electrónicos, entre otros.
+                b. Uso de la Información: Toda la información compartida en este chat es considerada pública y no
+                confidencial. No nos hacemos responsables de las consecuencias derivadas de la divulgación de
+                información
+                personal o sensible por parte de los usuarios.
+                c. Cookies: Utilizamos cookies para mejorar tu experiencia de uso de la aplicación web, pero estas no
+                recopilan información personal identificable.
+
+                Responsabilidad del Usuario:
+                a. Datos Sensibles: Te recomendamos encarecidamente no compartir datos personales sensibles o
+                confidenciales
+                en este chat. No nos hacemos responsables de las acciones de los usuarios ni de los posibles conflictos
+                que
+                puedan surgir debido a la divulgación de información personal sensible.
+                b. Contenido Inapropiado: No se permite la publicación de contenido ofensivo, difamatorio, ilegal o que
+                viole los derechos de terceros. Nos reservamos el derecho de eliminar cualquier contenido que
+                consideremos
+                inapropiado sin previo aviso.
+
+                Reinicio del Servidor:
+                a. Reinicio Automático: El servidor de esta aplicación web se reiniciará automáticamente cada 12 horas.
+                Durante este proceso, podrías experimentar interrupciones temporales del servicio. Te recomendamos
+                guardar
+                cualquier información importante antes del reinicio.
+
+                Cambios en los Términos de Privacidad y Uso:
+                Nos reservamos el derecho de modificar estos términos de privacidad y uso en cualquier momento.
+                Cualquier
+                cambio será efectivo desde el momento en que se publique la versión actualizada en la aplicación web. Es
+                responsabilidad del usuario revisar periódicamente los términos para estar al tanto de las
+                actualizaciones.
+
+                Ten en cuenta que esta aplicación web de chat libre no proporciona un entorno seguro ni garantiza la
+                privacidad total de tus comunicaciones. Utilízala bajo tu propio riesgo y discreción.
+
+                Si tienes alguna pregunta o inquietud sobre estos términos de privacidad y uso, por favor, contáctanos a
+                través de los canales de soporte proporcionados.
+
+                <b>
+                    ***Al entrar al chat acepta los temrinos***
+                </b>
+                ¡Disfruta de tu experiencia en nuestra aplicación web de chat libre!
+
+            </p>
+            <div class="Btn">
+                <a class="Btna" th:href="@{/chat}">ir al chat</a>
+            </div>
+            <form th:action="@{/logout}" method="POST">
+                <input type="submit" value="logout" name="logout" id="logout">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

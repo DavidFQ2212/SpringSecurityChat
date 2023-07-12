@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(214, 35, 160), rgb(1, 179, 202));
+
+    text-align: center;
+    background-color: red;
+}
+
+.title {
+    text-shadow: 2px 2px 5px rgb(50, 130, 191);
+    color: white;
+    font-size: 30px;
+    background-color: rgba(255, 192, 203, 0.562);
+
+}
+
+
+
+.Img {
+    margin: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    direction: none;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .8s;
+    box-shadow: 1px 1px 10px white;
+    text-shadow: 2px 2px 5px rgb(236, 108, 230);
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
